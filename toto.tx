@@ -1,0 +1,5 @@
+- Xử lý song song: Thêm xử lý đa luồng khi tạo embeddings
+- Điều chỉnh kích thước chunk: Giảm chunk_size xuống (hiện đang là 500) nếu bạn có quá nhiều tài liệu
+- Batch processing: Thêm xử lý theo batch khi thêm tài liệu vào cơ sở dữ liệu
+- Thay thế Claude/Gooogle Gemini API bằng Mistral 7B Instruct (miễn phí chạy offline)
+
